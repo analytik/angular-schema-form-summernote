@@ -13,7 +13,8 @@
     "angular",
     "schema",
     "form",
-    "summernote"
+    "summernote",
+    "angular-schema-form-add-on"
   ],
   "license": "MIT",
   "homepage": "https://github.com/NetzWerkPlan/angular-schema-form-summernote",
