@@ -1,0 +1,14 @@
+{
+  "templates":      {
+    "source":        "./src/*.jade",
+    "templateCache": {
+      "module":   "schemaForm",
+      "basePath": "directives/decorators/bootstrap/summernote"
+    }
+  },
+  "scripts":        {
+    "source": "./src/**/*.js"
+  },
+  "targetBaseName": "angular-schema-form-summernote",
+  "target":         "./dist"
+}

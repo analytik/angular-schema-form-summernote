@@ -1,0 +1,31 @@
+{
+  "name": "angular-schema-form-summernote",
+  "version": "0.0.1",
+  "main": [
+    "dist/angular-schema-form-summernote.min.js"
+  ],
+  "authors": [
+    "NetzWerkPlan GmbH",
+    "Steve Rasch <rasch@netzwerkplan.de>"
+  ],
+  "description": "Summernote add-on for schema form",
+  "keywords": [
+    "angular",
+    "schema",
+    "form",
+    "summernote"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/NetzWerkPlan/angular-schema-form-summernote",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-summernote": "~0.4.0",
+    "angular-schema-form": "~0.8.2"
+  }
+}
