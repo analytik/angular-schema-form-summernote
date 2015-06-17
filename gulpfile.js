@@ -36,6 +36,7 @@ gulp.task('build', ['clean'], function () {
             root:   config.templates.templateCache.basePath
           })),
       scripts  = gulp.src(config.scripts.source)
+          .pipe($.ngAnnotate())
           .pipe($.stripComments());
 
   return $.merge(template, scripts)
