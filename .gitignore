@@ -1,5 +1,9 @@
 .idea/workspace.xml
+.idea/misc.xml
 .idea/*.iml
+.idea/encodings.xml
+.idea/jsLibraryMappings.xml
+.idea/libraries/
 
 bower_components
 node_modules
