@@ -19,9 +19,10 @@
     var summernote = function (name, schema, options) {
 
       if (schema.type === 'string' && (schema.format === 'format-multiline')) {
-        var f     = schemaFormProvider.stdFormObj(name, schema, options);
-        f.key     = options.path;
-        f.type    = 'summernote';
+        var f = schemaFormProvider.stdFormObj(name, schema, options);
+        f.key = options.path;
+        f.type = 'summernote';
+        f.summernoteOptions = schema.summernoteOptions;
 
         options.lookup[sfPathProvider.stringify(options.path)] = f;
         return f;

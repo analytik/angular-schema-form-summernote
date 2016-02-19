@@ -1,4 +1,4 @@
 .content
   label(ng-show="showTitle()") {{ form.title }}
-  summernote(ng-show="form.key", schema-validation="form", ng-model="$$value$$")
+  summernote(ng-show="form.key", schema-validation="form", ng-model="$$value$$", config="form.summernoteOptions")
   span.help-block(sf-message="form.description")
