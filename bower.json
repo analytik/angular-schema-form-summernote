@@ -6,7 +6,8 @@
   ],
   "authors": [
     "NetzWerkPlan GmbH",
-    "Steve Rasch <rasch@netzwerkplan.de>"
+    "Steve Rasch <rasch@netzwerkplan.de>",
+    "Milan Brezovsky <analytik@uglycode.com>"
   ],
   "description": "Summernote add-on for schema form",
   "keywords": [
@@ -26,7 +27,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular-summernote": "~0.4.0",
-    "angular-schema-form": "~0.8.2"
+    "angular-summernote": "~0.8.0",
+    "angular-schema-form": "~0.8.12"
   }
 }
